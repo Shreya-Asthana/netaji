@@ -1,0 +1,109 @@
+body{
+    background-image:linear-gradient(#a7a853 30% ,#68aa57 50%,#76b95e,#457609);
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.navbar{
+    background-color:rgb(28, 37, 12);
+    position: fixed;
+    text-align: center;
+    width: max-content;
+    padding:10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+    left: 40%;
+
+}
+.navbar a{
+    color:rgb(117, 115, 115);
+    text-shadow: 0px 0px 10px #2b411c;
+    text-decoration:none;
+}
+.navbar a:hover{
+    color:#d1ebbe;
+    text-shadow:0px 0px 20px #bbed7e;
+}
+.footer{
+    background-color: #1a2001;
+    color:#bbed7e;
+    width:100%;
+    height:max-content;
+    bottom: 0;
+    left:0;
+
+}
+.footer a{
+    text-decoration:none;
+    color:black
+}
+.footer a:hover{
+    color:#1a2001;
+    text-shadow:0px 0px 10px #8eff04;
+}
+.footer button {
+    border-radius:5px;
+    border: solid 1px;
+    padding:15px;
+    margin:5px;
+    box-shadow:0px 0px 10px #a5b95e;
+    font-weight:bold ;
+}
+.name{
+    color: #294204;
+    font-family: cursive;
+}
+.name:hover{
+    text-shadow:0px 0px 10px #5c9f09;
+    color: #1d4403;
+}
+@media screen and (max-width: 800px
+){
+    #scb{
+        width:100px;
+        height: auto;
+        position: relative;
+    }
+}
+.sub-head{
+    color:white;
+    text-align: center;
+}
+.content{
+    color: #1f230d;
+text-align: left;   
+}
+
+@keyframes slogan{
+    0%{
+        content: url("slogan1.jpg");
+    }
+    20%{
+        content: url("slogan2.jpg");
+    }
+    40%{
+        content: url("slogan3.jpg");
+    }
+    60%{
+        content: url("slogan4.jpg");
+    }
+    80%{
+        content: url("slogan5.jpg");
+    }
+}
+.Slogan{
+    animation-name: slogan;
+  animation-duration: 20s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  width:90%;
+  height:auto;
+  border:solid 1px black;
+  border-radius: 1px;
+  padding: 0px;
+  bottom: 10px;
+  box-shadow: 2px 5px 11px black;
+  transform: smooth;
+  align-content: center;
+  
+}
